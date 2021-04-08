@@ -69,8 +69,6 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   color: #e4e4e4;
-  text-align: center;
-  padding-bottom: 20px;
 }
 
 h2 {
@@ -79,6 +77,8 @@ h2 {
     "Lucida Sans", Arial, sans-serif;
   color: #e4e4e4;
   text-align: center;
+  padding-left: 5cm;
+  padding-right: 5cm;
 }
 h2 a {
   color: #e4e4e4;
@@ -90,4 +90,43 @@ h2 a:hover {
 
 main {
   text-align: center;
+}
+/* Container holding the image and the text */
+.headerphoto {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #e4e4e4;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left,
+.right {
+  width: 22%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
