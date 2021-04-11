@@ -176,3 +176,31 @@ nav a:hover::before {
   display: table;
   clear: both;
 }
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pt-1cm {
+  padding-top: 1cm;
+}
+
+.pb-20px {
+  padding-bottom: 20px;
+}
+
+.pl-3cm {
+  padding-left: 3cm;
+}
+
+.pl-8cm {
+  padding-left: 8cm;
+}
+
+.pr-3cm {
+  padding-right: 3cm;
+}
