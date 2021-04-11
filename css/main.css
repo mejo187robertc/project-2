@@ -170,11 +170,15 @@ nav a:hover::before {
   width: 50%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+@media (min-width: 767px) {
+  .row {
+    columns: 3;
+    column-gap: 50px;
+  }
+}
+
+.row p {
+  margin-top: 0;
 }
 
 .text-left {
