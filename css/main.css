@@ -29,8 +29,6 @@ h2 {
     "Lucida Sans", Arial, sans-serif;
   color: #e4e4e4;
   text-align: center;
-  padding-left: 5cm;
-  padding-right: 5cm;
 }
 
 h2 a {
@@ -52,6 +50,7 @@ main {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 header::after {
@@ -193,14 +192,6 @@ nav a:hover::before {
   padding-bottom: 20px;
 }
 
-.pl-3cm {
-  padding-left: 3cm;
-}
-
 .pl-8cm {
   padding-left: 8cm;
-}
-
-.pr-3cm {
-  padding-right: 3cm;
 }
