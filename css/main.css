@@ -1,5 +1,9 @@
 /* Global Styles */
 
+body {
+  margin: 0;
+}
+
 img {
   display: block;
   width: 100%;
